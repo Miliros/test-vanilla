@@ -58,6 +58,9 @@ body {
   width: 250px !important;
   padding: 15px !important;
   margin-right: 55px !important;
+  @include verySmall {
+    min-width: 160px !important;
+  }
 }
 .navbar-brand {
   padding-bottom: 0px !important;
