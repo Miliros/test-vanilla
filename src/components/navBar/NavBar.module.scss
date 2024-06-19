@@ -1,0 +1,94 @@
+.logoImage {
+  display: flex;
+  width: 30px;
+
+  // object-fit: fill;
+  // margin-right: 110px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid rgba(255, 147, 244, 1);
+  &.active {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid rgba(212, 255, 0, 1);
+  }
+}
+.p:hover {
+  color: rgba(212, 255, 0, 1);
+}
+
+.nav {
+  background-color: rgba(255, 147, 244, 1) !important;
+  margin: 0px !important;
+  padding: 8px !important;
+}
+
+.brand {
+  font-family: "Cinzel" decorative !important;
+  font-size: 16px !important;
+  color: white !important;
+  padding-right: 8.1px;
+  padding-left: 8.1px;
+
+  justify-content: center !important;
+  align-items: center !important;
+}
+.navLinks {
+  justify-content: left;
+  background-color: red;
+}
+.activeIndicator {
+  background-color: rgba(212, 255, 0, 1) !important;
+  height: 3px;
+  position: relative;
+  width: 38px;
+  left: 78px;
+  top: -25px;
+  margin: 0px;
+}
+.activeIndicator2 {
+  background-color: rgba(212, 255, 0, 1) !important;
+  height: 3px;
+  position: relative;
+  width: 38px;
+  left: 52px;
+  top: -25px;
+  margin: 0px;
+}
+.buttonResponsive {
+  height: 35px !important;
+  font-size: 12px !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+.buttonResponsive:hover {
+  color: rgba(212, 255, 0, 1) !important;
+}
+
+.activep {
+  .p {
+    font-size: 14px !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    align-items: start !important;
+    padding: 13px !important;
+    margin: 0px !important;
+    min-width: 20%;
+  }
+}

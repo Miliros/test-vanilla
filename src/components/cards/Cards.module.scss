@@ -1,0 +1,27 @@
+@import "../variables.scss";
+.cardCntn {
+  margin-right: 20px;
+  box-shadow: 8px 8px 8px rgba(0.1, 0.1, 0.1, 0.1);
+  border-radius: 20px !important;
+  @include verySmall {
+    margin-right: 0px;
+  }
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+.titleCard {
+  font-size: 35px;
+  font-weight: 800;
+  color: rgba(255, 147, 244, 1);
+}
+.cardText {
+  font-size: 15px !important;
+  line-height: 21px;
+  max-width: 200px !important;
+}
