@@ -8,17 +8,17 @@ export const Home = () => {
     <div className={styles.cntnHome}>
       <div className={styles.headerText}>
         <p className={styles.pHeader}>
-          Bienvenidos a nuestra pagina de fotografia
+          Bienvenidos a nuestra página de fotografía
         </p>
       </div>
       <NavBar />
 
       <div className={styles.divOne}>
         <div className={styles.contenedor}>
-          <p className={styles.prevTitle}>PAGINA WEB DE FOTOGRAFIA</p>
+          <p className={styles.prevTitle}>PÁGINA WEB DE FOTOGRAFÍA</p>
           <div className={styles.cntnTitle}>
             <p className={styles.firstTitle}>Web site </p>
-            <p className={styles.firstTitle}>fotografia</p>
+            <p className={styles.firstTitle}>fotografía</p>
           </div>
         </div>
         <div className={styles.buttonSend}>

@@ -13,8 +13,8 @@
   }
   @include verySmall {
     height: 180vh;
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
 .headerText {
@@ -73,7 +73,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; /* Alineación de texto centrada */
+  text-align: center;
   margin: 0px;
 }
 .firstTitle {
@@ -107,23 +107,18 @@
   align-content: center;
   @include SmalIntermediate {
     height: 856px;
-    // background-color: red !important;
   }
   @include small {
     height: 856px;
-    // background-color: red !important;
   }
   @include verySmall2 {
     height: 856px;
-    // background-color: red !important;
   }
   @include verySmall {
     height: 856px;
-    // background-color: red !important;
   }
 }
 .buttonSend {
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,20 +147,20 @@
   top: 80%;
   transform: translateY(-50%);
   @include verySmall2 {
-    top: 110%; // Centrar verticalmente
-    width: 100px; // Ajustar dimensiones
-    height: 240px; // Ajustar dimensiones
-    border-top-left-radius: 150px; // Ajustar borde para redondear más
-    border-bottom-left-radius: 150px; // Ajustar borde para redondear más
-    transform: translateY(-50%); // Centrar verticalmente
+    top: 110%;
+    width: 100px;
+    height: 240px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    transform: translateY(-50%);
   }
   @include verySmall {
-    top: 110%; // Centrar verticalmente
-    width: 100px; // Ajustar dimensiones
-    height: 240px; // Ajustar dimensiones
-    border-top-left-radius: 152px; // Ajustar borde para redondear más
-    border-bottom-left-radius: 152px; // Ajustar borde para redondear más
-    transform: translateY(-50%); // Centrar verticalmente
+    top: 110%;
+    width: 100px;
+    height: 240px;
+    border-top-left-radius: 152px;
+    border-bottom-left-radius: 152px;
+    transform: translateY(-50%);
   }
 }
 .smallHalfCircle {
@@ -179,19 +174,15 @@
   bottom: -253px;
 
   @include SmalIntermediate {
-    // display: none;
     bottom: -873px;
   }
   @include small {
-    // display: none;
     bottom: -873px;
   }
   @include verySmall2 {
-    // display: none;
     bottom: -873px;
   }
   @include verySmall {
-    // display: none;
     bottom: -873px;
   }
 }

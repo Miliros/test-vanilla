@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./NavBar.module.scss";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../../../public/logo.png";
 
 export const NavBar = () => {
   const [navResponsive, setNavResponsive] = useState(false);

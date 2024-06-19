@@ -12,10 +12,7 @@ import styles from "./Cards.module.scss";
 
 export const Cards = () => {
   return (
-    <MDBRow
-      className="row-cols-1 row-cols-md-3 g-3"
-      //   style={{ backgroundColor: "red", width: "850px" }}
-    >
+    <MDBRow className="row-cols-1 row-cols-md-3 g-3">
       <MDBCol>
         <MDBCard className={styles.cardCntn}>
           <div className={styles.cardContent}>
@@ -26,9 +23,8 @@ export const Cards = () => {
             <MDBCardBody>
               <MDBCardTitle className={styles.titleCard}>Fotos</MDBCardTitle>
               <MDBCardText className={styles.cardText}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Una tarjeta extensa con texto de apoyo que invita a explorar más
+                contenido.
               </MDBCardText>
             </MDBCardBody>
           </div>
@@ -44,9 +40,8 @@ export const Cards = () => {
             <MDBCardBody>
               <MDBCardTitle className={styles.titleCard}>Videos</MDBCardTitle>
               <MDBCardText className={styles.cardText}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Una tarjeta extensa con texto de apoyo que invita a explorar más
+                contenido.
               </MDBCardText>
             </MDBCardBody>
           </div>
@@ -62,9 +57,8 @@ export const Cards = () => {
             <MDBCardBody>
               <MDBCardTitle className={styles.titleCard}>Favs</MDBCardTitle>
               <MDBCardText className={styles.cardText}>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Una tarjeta extensa con texto de apoyo que invita a explorar más
+                contenido.
               </MDBCardText>
             </MDBCardBody>
           </div>

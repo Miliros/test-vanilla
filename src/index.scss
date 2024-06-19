@@ -24,32 +24,32 @@ body {
 
 @include largeIntermediate {
   .row {
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
 
 @include SmalIntermediate {
   .row {
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
 @include small {
   .row {
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
 @include verySmall2 {
   .row {
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
 @include verySmall {
   .row {
-    display: block !important; // Desactivar display flex
-    margin-top: 0 !important; // Desactivar margin-top
+    display: block !important;
+    margin-top: 0 !important;
   }
 }
