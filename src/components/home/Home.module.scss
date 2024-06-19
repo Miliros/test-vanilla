@@ -104,6 +104,7 @@
   height: 56%;
   justify-content: center;
   align-content: center;
+  padding-left: 120px;
 
   @include largeIntermediate {
     height: 856px;
@@ -113,12 +114,15 @@
   }
   @include small {
     height: 856px;
+    padding-left: 0px;
   }
   @include verySmall2 {
     height: 856px;
+    padding-left: 0px;
   }
   @include verySmall {
     height: 856px;
+    padding-left: 0px;
   }
 }
 .buttonSend {
