@@ -8,7 +8,7 @@ export const Home = () => {
     <div className={styles.cntnHome}>
       <div className={styles.headerText}>
         <p className={styles.pHeader}>
-          Bienvenidos a nuestra página de fotografía
+          Bienvenidos a nuestra web de fotografía
         </p>
       </div>
       <NavBar />

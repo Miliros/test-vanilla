@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./NavBar.module.scss";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
+import logo from "../../../public/logo.png";
 export const NavBar = () => {
   const [navResponsive, setNavResponsive] = useState(false);
   const [activeNav, setActiveNav] = useState("Inicio");
@@ -13,7 +13,9 @@ export const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className={styles.nav}>
       <Container fluid>
-        <Navbar.Brand className={styles.brand}>VANILLA</Navbar.Brand>
+        <Navbar.Brand className={styles.brand}>
+          <img src={logo} className={styles.logoImage} />
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className={styles.buttonResponsive}

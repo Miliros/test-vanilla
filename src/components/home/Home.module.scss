@@ -31,6 +31,9 @@
   font-size: 14px;
   font-weight: 400;
   margin: 0px;
+  @include verySmall {
+    font-size: 13px;
+  }
 }
 .divOne {
   display: flex;
@@ -111,6 +114,7 @@
   }
   @include SmalIntermediate {
     height: 856px;
+    padding-left: 0px;
   }
   @include small {
     height: 856px;
