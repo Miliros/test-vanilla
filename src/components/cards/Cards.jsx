@@ -12,7 +12,7 @@ import styles from "./Cards.module.scss";
 
 export const Cards = () => {
   return (
-    <MDBRow className="row-cols-1 row-cols-md-3 g-3">
+    <MDBRow className="row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3  g-3">
       <MDBCol>
         <MDBCard className={styles.cardCntn}>
           <div className={styles.cardContent}>
